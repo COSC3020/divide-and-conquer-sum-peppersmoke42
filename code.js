@@ -1,6 +1,6 @@
-function divideAndConquerSum(arr) 
+function divideAndConquerSum(a) 
 {
-    return sum(arr, 0, arr.length - 1);
+    return sum(a, 0, a.length - 1);
 }
 
 function sum(arr, low, high)
